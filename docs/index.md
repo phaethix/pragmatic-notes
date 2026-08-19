@@ -6,12 +6,6 @@ hero:
 ---
 
 <section class="home-timeline" aria-labelledby="timeline-title">
-<div class="timeline-heading">
-<p class="eyebrow">记录时间线</p>
-<h2 id="timeline-title">从一个能用的博客开始</h2>
-<p class="timeline-lead">先写下来，再慢慢整理。这里记录真实的问题、实际的做法，以及值得留下来的判断。</p>
-</div>
-
 <div class="timeline-list">
 <article class="timeline-item timeline-item-current">
 <div class="timeline-date">2026.08.19</div>
@@ -66,35 +60,6 @@ hero:
   width: min(720px, calc(100% - 48px));
   margin: 0 auto;
   padding: 0 0 96px;
-}
-
-.timeline-heading {
-  margin-bottom: 44px;
-  text-align: center;
-}
-
-.timeline-heading .eyebrow {
-  margin: 0 0 12px;
-  color: var(--vp-c-brand-1);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.timeline-heading h2 {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  font-size: 28px;
-  letter-spacing: -0.03em;
-}
-
-.timeline-lead {
-  max-width: 720px;
-  margin: 16px auto 0;
-  color: var(--vp-c-text-2);
-  line-height: 1.8;
 }
 
 .timeline-list {
@@ -188,10 +153,6 @@ hero:
   .home-timeline {
     width: min(100% - 32px, 520px);
     padding-bottom: 64px;
-  }
-
-  .timeline-heading h2 {
-    font-size: 24px;
   }
 
   .timeline-list {
