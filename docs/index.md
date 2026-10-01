@@ -8,6 +8,15 @@ hero:
 <section class="home-timeline" aria-labelledby="timeline-title">
 <div class="timeline-list">
 <article class="timeline-item timeline-item-current">
+<div class="timeline-date">2026.10.01</div>
+<div class="timeline-card">
+<p class="timeline-label">技术实践 · Go</p>
+<h3><a href="./posts/technical/go-proverbs">Go Proverbs 逐条解析</a></h3>
+<p>19 条 Go 箴言的译文、设计哲学、正反代码示例与 Code Review 速查表。</p>
+</div>
+</article>
+
+<article class="timeline-item">
 <div class="timeline-date">2026.08.19</div>
 <div class="timeline-card">
 <p class="timeline-label">技术实践 · 第一篇</p>

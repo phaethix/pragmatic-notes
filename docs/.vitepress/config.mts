@@ -38,7 +38,8 @@ export default defineConfig({
           text: '技术实践',
           items: [
             { text: '分类首页', link: '/posts/technical/' },
-            { text: '从一个能用的博客开始', link: '/posts/technical/first-note' }
+            { text: '从一个能用的博客开始', link: '/posts/technical/first-note' },
+            { text: 'Go Proverbs 逐条解析', link: '/posts/technical/go-proverbs' }
           ]
         }
       ],
