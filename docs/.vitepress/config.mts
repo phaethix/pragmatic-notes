@@ -8,11 +8,15 @@ export default defineConfig({
   cleanUrls: true,
   base: '/pragmatic-notes/',
   appearance: false,
+  markdown: {
+    math: true
+  },
   themeConfig: {
     siteTitle: 'pragmatic-notes',
     nav: [
       { text: '技术实践', link: '/posts/technical/' },
-      { text: '日常思考', link: '/posts/thoughts/' }
+      { text: '日常思考', link: '/posts/thoughts/' },
+      { text: '大模型论文研读', link: '/papers/' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/phaethix/pragmatic-notes' }
@@ -58,6 +62,15 @@ export default defineConfig({
             { text: '全部文章', link: '/posts/' },
             { text: '技术实践', link: '/posts/technical/' },
             { text: '日常思考', link: '/posts/thoughts/' }
+          ]
+        }
+      ],
+      '/papers/': [
+        {
+          text: '大模型论文研读',
+          items: [
+            { text: '分类首页', link: '/papers/' },
+            { text: 'Attention Is All You Need', link: '/papers/attention-is-all-you-need/' }
           ]
         }
       ]
