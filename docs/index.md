@@ -8,6 +8,15 @@ hero:
 <section class="home-timeline" aria-labelledby="timeline-title">
 <div class="timeline-list">
 <article class="timeline-item timeline-item-current">
+<div class="timeline-date">2026.10.27</div>
+<div class="timeline-card">
+<p class="timeline-label">大模型论文研读 · Transformer</p>
+<h3><a href="./papers/attention-is-all-you-need/">Attention Is All You Need</a></h3>
+<p>Transformer 原论文的完整中文翻译，五张插图重绘为中文。</p>
+</div>
+</article>
+
+<article class="timeline-item">
 <div class="timeline-date">2026.10.01</div>
 <div class="timeline-card">
 <p class="timeline-label">技术实践 · Go</p>
